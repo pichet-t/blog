@@ -1,0 +1,18 @@
+---
+title:  "Cassandra to Amazon Keyspaces"
+subtitle: "The Fly!"
+author: "Wferr"
+avatar: "img/authors/wferr.png"
+image: "img/a.jpg"
+date:   2021-02-03 12:12:12
+---
+
+### Anyone completed this?
+Of course, I follow the "Migrate from Apache Cassandra to Amazon Keyspaces" here aws.amazon.com/getting-started/hands-on/move-to-managed/migrate-cassandra-to-amazon-keyspaces/. 
+
+### Springboard jump
+Instead of EC2 instance I was created a Cassandra node from here digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04 and generated csv file from it.
+
+But at the end “I found it easier” with AWS CLI docker aws.amazon.com/blogs/developer/aws-cli-v2-docker-image/. 
+
+So I end up with github.com/aws-samples/amazon-keyspaces-toolkit and use cqlsh from inside the container connect to Amazon Keyspaces with IAM account created to copy csv file into Amazon Keyspaces table.

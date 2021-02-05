@@ -1,0 +1,24 @@
+---
+title:  "I scream"
+subtitle: "Nickname of my daughter!"
+author: "Wferr"
+avatar: "img/authors/wferr.png"
+image: "img/e.jpg"
+date:   2015-04-24 12:12:12
+---
+
+### Need a blog?
+I just want to create a blog today to jurnal something done. 
+But…how the heck do you get started? There’s so much info out there on the web, and everyone’s telling you to do different things. Who do you listen to? Where’s the starting point?
+
+### Want to start a blog huh? Great idea!
+I found some ideas from here  aimetpgm.github.io/blog/jekyll/2019/05/08/jekyll-github-page.html
+
+here martinpeck.com/jekyll/blog/containers/2019/02/02/build-and-deploy-jekyll-with-docker-part1/
+
+and here medium.com/@sebagomez/setting-up-a-github-page-with-jekyll-and-a-docker-container-c712e448649b
+
+So this guy is ... Host Your Own Blog with Jekyll, Docker, and GitHub Pages
+youtu.be/ZHQ3IwIL590
+
+docker run --rm -v ${PWD}:/srv/jekyll -p 4000:4000 jekyll/jekyll:4.0 jekyll serve
